@@ -69,6 +69,7 @@
   nav ul li{
       display: inline;
       margin-right: 20px;
+      font-size: 18px;
   }
   
 .container{
@@ -114,11 +115,12 @@
 .categories{
     margin: 70px 0;
 }
-a{
+#chGame a{
     font-family: "Permanent Marker", cursive;
     text-decoration: none;
     color: rgba(15, 30, 241, 0.671);
-    size: 40px;
+    text-size-adjust: 20px;
+    
 }
 a:hover{
     
@@ -135,4 +137,21 @@ p{
 }
 #menuitems{
     font-weight: bold;
+}
+#chGame{
+ 
+  color: red; 
+  background-origin: content-box;
+  border-radius: 15px;
+  width: 150px;
+}
+@media only screen and (max-width: 600px) {
+    nav ul li{
+        font-size: 9px;
+        padding-right: 10px;
+    }
+    #chGame{
+        width: 100px
+    }
+   
 }

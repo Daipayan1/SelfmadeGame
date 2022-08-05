@@ -87,6 +87,9 @@
   nav ul li{
       display: inline;
       margin-right: 20px;
+        margin-right: 20px;
+        font-size: 18px;
+    
   }
   
 .container{
@@ -123,4 +126,20 @@ p{
 #statusText{
     margin-top: 20px;
     margin-bottom: 20px;
+}
+#chGame{
+      color: red;
+    background-origin: padding-box; 
+    border-radius: 10px
+    
+}
+@media only screen and (max-width: 600px) {
+    nav ul li{
+        font-size: 12px;
+        padding-right: 10px;
+    }
+    #chGame{
+        width: 90px
+    }
+   
 }
