@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+    color:rgb(231, 73, 10);    
+}
+
+
+#gameContainer{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+    background-image: url(/img/floral-daisy-doodle-border-vector.webp);
+    background-repeat: no-repeat;
+    background-size: 1400px 600px;
+    background-position-x: 20%;
+    z-index: 1;
+    position: relative;
+}
+
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+    margin-top: 0%;
+}
+#statusText{
+    color: rgb(87, 196, 129);
+}
+#restartBtn{
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+    border-radius: 4px;
+}
+#restartBtn:hover{
+    background-color: #4CAF50; /* Green */
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;  
+   
+  }
+  
+  nav{
+      flex: 1;
+      text-align: right;
+  }
+  nav ul{
+      display: inline-block;
+      list-style-type: none;
+  }
+  nav ul li{
+      display: inline;
+      margin-right: 20px;
+  }
+  
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+
+}
+.header{
+    background: rgba(0, 0, 0, 0.7) url(img/space-doodle-astrology-doodles-sketch-vector-28422288.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+
+}
+.header::after{
+    content: "";
+    border: 3px solid;
+    border-radius: 23px;
+    padding: 3px;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(104, 98, 98);
+    position: absolute;
+   
+    -webkit-filter: blur(3px);
+    opacity: 0.7;
+    z-index: -1;
+
+}
+.header .row{
+    margin-top: 50px;
+
+}
+.categories{
+    margin: 70px 0;
+}
+a{
+    font-family: "Permanent Marker", cursive;
+    text-decoration: none;
+    color: rgba(15, 30, 241, 0.671);
+    size: 40px;
+}
+a:hover{
+    
+    color:rgb(224, 85, 43);
+}
+p{
+    color: darkgreen;
+    
+    
+}
+#statusText{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#menuitems{
+    font-weight: bold;
+}
