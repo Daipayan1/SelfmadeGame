@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="snake.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+         <div class="navbar">
+            <nav>
+            <ul id="menuitems">
+                <li style="color: white;">Click Here to play Other Games 👉</li>
+                <li> <button id="chGame" ><a href="index1.html">Rock Paper Sessior</a></button></li>
+                <li> <button id="chGame" ><a href="index.html">TIC TAC TOE</a></button></li>
+               
+            </ul>
+        </nav>
+         </div>
+        </div>
+    </div>
+    <div id="gameContainer">
+        <canvas id="gameBoard" width="500" height="500"></canvas>
+        <div id="scoreText">0</div>
+        <button id="resetBtn">Reset</button>
+        <div id="mute">
+            <button id="muteBtn">MUTE</button>
+        </div>
+    </div>
+   
+    <script src="snake.js"></script>
+</body>
+</html>
